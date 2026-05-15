@@ -1,0 +1,21 @@
+# 案件台账 — china-litigation-legal
+# 由 /china-litigation-legal:matter-intake 自动维护
+# 勿手动排序；用 /china-litigation-legal:portfolio-status 查看整体状态
+#
+# 字段说明:
+#   id: 案件标识（小写、连字符、年份）
+#   name: 案件名称（常用简称）
+#   type: 案件类型 [民事合同 | 民事侵权 | 商事纠纷 | 劳动争议 | 知识产权 | 行政诉讼 | 刑事辩护 | 仲裁 | 其他]
+#   role: 我方角色 [原告 | 被告 | 申请人 | 被申请人 | 上诉人 | 被上诉人 | 辩护人 | 代理人]
+#   counterparty: 对方当事人
+#   forum: 受理机关（法院全称或仲裁机构）
+#   status: [潜在 | 立案前 | 一审 | 二审 | 再审 | 执行 | 仲裁审理中 | 调解中 | 结案]
+#   risk: [低 | 中 | 高 | 极高]
+#   exposure_range: 标的金额或风险敞口估算
+#   sof_deadline: 诉讼时效截止日 (YYYY-MM-DD)
+#   next_deadline: 最近一个期限 (YYYY-MM-DD)
+#   opened: 案件开立日期 (YYYY-MM-DD)
+#   last_updated: 最近更新日期 (YYYY-MM-DD)
+#   path: 案件文件夹路径
+
+matters: []

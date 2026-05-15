@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "搜索消息、读取频道、查找工作区讨论。"
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "从 Google Drive 中搜索、读取、获取文档。"
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "case-management",
+    "documents",
+    "chat"
+  ],
+  "_note": "中国法律数据库连接器说明：北大法宝（pkulaw.com）、威科先行（wklawchina.com）、中国裁判文书网（wenshu.court.gov.cn）、国家法律法规数据库（flk.npc.gov.cn）目前尚无官方MCP连接器。可通过网页搜索工具访问。如需直连，请在此处手动配置MCP服务器。"
+}

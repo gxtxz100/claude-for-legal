@@ -1,0 +1,8 @@
+{
+  "name": "china-litigation-legal",
+  "version": "1.0.0",
+  "description": "中国诉讼与争议解决实务助手 — 管理案件组合（民事/商事/行政/刑事辩护）、期限台账、诉讼时效、证据管理、仲裁程序，并完成文书起草：起诉状、答辩状、上诉状、代理词、辩护词。适配律师事务所律师（诉讼/非诉）及企业法务。",
+  "author": {
+    "name": "China Legal Practice Community"
+  }
+}
